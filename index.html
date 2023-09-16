@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/121a4ed581.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<body>
+    <header class="header border">
+        <div class="logo">
+            <span class="font-lg blue sab">Sab</span><span class="font-lg orange sab">Paisa</span>
+        </div>
+
+        <div class="welcomeID flex border">
+            <h2>Welcome Back</h2>
+            <h2>Merchant ID: 14662</h2>
+        </div>
+        <div class="notification"><i class="fa-solid fa-bell" style="color:#397ad1"></i></div>
+        <div class="profile flex">
+            <i class="fa-solid fa-user" style="color:#397ad1; font-size:18px"></i>
+            <div class="name">Hello, Vikram</div>
+        </div>
+    </header>
+    <main class="body-cnt">
+        <Sidebar class="sidebar">
+            <div class="nav-item custom-blue ">
+                <div class="nav-item-icon "><i class="fa-solid fa-gauge-simple-high"></i></div>
+                <div class="nav-item-text">Dashboard</div>
+            </div>
+            <div class="nav-item border-radius-custom">
+                <div class="nav-item-icon "><i class="fa-solid fa-check-double"></i></div>
+                <div class="nav-item-text">Complete KYC</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-check-double"></i></div>
+                <div class="nav-item-text">Integration kit</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                <div class="nav-item-text">Product catalog</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-file"></i></div>
+                <div class="nav-item-text">Transaction History</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                <div class="nav-item-text">Settlement Report</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-money-bills"></i></div>
+                <div class="nav-item-text">Refund Txn History</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-broom-ball"></i></div>
+                <div class="nav-item-text">Chargeback txn History</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-cloud-meatball"></i></div>
+                <div class="nav-item-text">Transaction Enquiry</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-book-journal-whills"></i></div>
+                <div class="nav-item-text">Translation Summary</div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-icon"><i class="fa-solid fa-fill"></i></div>
+                <div class="nav-item-text">FAQs/Help</div>
+            </div>
+        </Sidebar>
+        <div class="main-body1">
+            <div class="card1">
+                <h1>KYC status</h1>
+                <div class="flex align">
+                    <div class="dot-cnt">
+                        <div class="dot-text ">Pending</div>
+                        <div class="dot blue-dot"></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="dot-cnt">
+                        <div class="dot-text"> Progress</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="dot-cnt">
+                        <div class="dot-text">Verified</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="dot-cnt">
+                        <div class="dot-text">Approved</div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="heading-cnt flex">
+                    <div class="transaction">All Transaction</div>
+                    <div class="flex slect-cnt">
+                        <div class="select">Select Period</div>
+                        <div class="filter"> Filter <i class="fa-solid fa-filter" style="margin-left: 5px;"></i></div>
+                    </div>
+                </div>
+<div class="card-cnt flex  ">
+    <div class="box-1 flex card">
+        <div class="box1-icon-cnt">
+            <div class="box-icon"><i class="fa-solid fa-box fa-xl"></i></div>
+        </div>
+        <div class="box-text-cnt ">
+            <div class="box-text ">
+                Total Income
+            </div>
+            <div class="box-text-cost">
+                Rs. 250,000,000
+            </div>
+        </div>
+    </div>
+    <div class="box-2 flex card">
+        <div class="box2-icon-cnt ">
+            <div class="box-icon "><i class="fa-solid fa-box fa-xl"></i></div>
+        </div>
+        <div class="box-text-cnt ">
+            <div class="box-text ">
+                Total Income
+            </div>
+            <div class="box-text-cost">
+                Rs. 250,000,000
+            </div>
+        </div>
+    </div>
+    <div class="box-3 flex card ">
+        <div class="box3-icon-cnt ">
+            <div class="box-icon"><i class="fa-solid fa-box fa-xl "></i></div>
+        </div>
+        <div class="box-text-cnt ">
+            <div class="box-text  ">
+                Total Income
+            </div>
+            <div class="box-text-cost">
+                Rs. 250,000,000
+            </div>
+        </div>
+    </div>
+    <div class="box-4 flex card">
+        <div class="box4-icon-cnt ">
+            <div class="box-icon "><i class="fa-solid fa-box fa-xl" style="size: 18px;"></i></div>
+        </div>
+        <div class="box-text-cnt ">
+            <div class="box-text ">
+                Total Income
+            </div>
+            <div class="box-text-cost">
+                Rs. 250,000,000
+            </div>
+        </div>
+    </div>
+</div>
+               
+            </div>
+            <div class="card3 flex">
+                <div class="graph">
+                    <div class="graph-cnt" style="width: 70%;">
+                        <canvas id="myChart" class="graph-height" width="100" height="50"></canvas>
+                    </div>
+                </div>
+                <div class="pie" style="width: 80%;"> <canvas id="myChartPie" class="pie-height" width="10" height="10"></canvas></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            datasets: [{
+                data: [10000, 20000, 30000,40000, 50000, 10000, 20000, 30000,40000, 50000,60000,40000],
+                borderWidth: 1,
+                barPercentage: 0.5,
+                backgroundColor: "#1a9ced",
+                borderRadius: "20px",
+                minBarLength: 0.5,
+              
+            }]
+        },
+        options: {
+        plugins: {
+            title: {
+                display: true,
+                text: 'Amount Per Month',
+                align: "start",
+            },
+            tooltip: {
+                backgroundColor: "red" 
+            },
+            responsive: true
+        }
+    }
+    });
+</script>
+<script>
+    const ctxj = document.getElementById('myChartPie');
+
+    new Chart(ctxj, {
+        type: 'doughnut',
+        data:  data = {
+  
+  datasets: [{
+    label: 'My First Dataset',
+    data: [100, 20, 0],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)'
+    ],
+    hoverOffset: 4
+  }]
+  ,
+  options: {
+        plugins: {
+            title: {
+                display: true,
+                text: 'Amount Per Month',
+                align: "start",
+            },
+            responsive: true
+        }
+    }
+}
+    });
+</script>
+
+</html>
